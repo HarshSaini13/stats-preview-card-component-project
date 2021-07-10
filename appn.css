@@ -15,18 +15,9 @@ body{
 }
 .card{
     background-color: hsl(244, 38%, 16%);
-    /* padding-left: 50px;
-    padding-right: 65px;
-    padding-top: 35px;
-    padding-bottom: 35px; */
     padding: 35px 65px 35px 50px;
 }
 .imgDiv{
-    /* width: 495px;
-    height: 430px;
-    background-image: url(images/image-header-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: hsl(277, 92%, 31%);
 }
 img{
@@ -70,6 +61,7 @@ h3{
 }
 @media (max-width: 960px) and (min-width: 550px){
     body{
+        height: auto;
         text-align: center;
     }
     .project{
@@ -89,7 +81,6 @@ h3{
     ul{
         justify-content: space-evenly;
         margin-right: 0px;
-        /* flex-direction: column; */
     }   
 }
 @media (max-width: 550px){
@@ -97,7 +88,7 @@ h3{
         height: auto;
     }
     .project{
-        width: 340px;
+        width: 330px;
         height: 100%;
         flex-direction: column-reverse;
         text-align: center;
@@ -106,12 +97,10 @@ h3{
         padding: 35px 30px 35px 30px;
     }
     img{
-        width: 340px;
-        /* height: 400px; */
+        width: 330px;
         height: 100%;
     }
     .imgDiv{
-        /* height: 400px; */
         height: 250px;
     }
     ul{
